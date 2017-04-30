@@ -530,8 +530,8 @@ Gun.chain.valMapEnd = function (cb, end) {
 
       },
       
-      _on(soul,prop,cb){
-        this.gun.get(soul).path(prop).on(cb)
+      _on(args,cb){
+        this.gun.get(args.soul).path(args.prop).on(cb)
       }
     }
 
